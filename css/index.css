@@ -7,6 +7,15 @@
     width: 80%;
     margin: 0 auto;
 }
+/* 高度塌陷 */
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
 
 
 /* 头部开始 */
